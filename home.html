@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="css/home.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="css/header.jpg" alt="Header img">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="" style="padding:10px 485px;"></a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <form action="server/homelog.php" method="POST">
+                <div class="login">
+                    <p id="heading">Login</p>
+                    <p>Enter ID: </p>
+                    <p><input type="text" name="id" placeholder="Enter ID" required></p>
+                    <p>Enter PIN: </p>
+                    <p><input type="password" name="pin" placeholder="Enter Pin(5 digits)" required></p>
+                    <p><input type="submit" name="Sub" value="Login"></p>
+                </div>
+            </form>
+            <div class="terms">
+                <img src="css/terms.png" alt="terms">
+            </div>
+            <div class="features">
+                <p id="heading">Features</p>
+                <p>Our internet banking portal provides personal banking services that gives you complete control over all your banking demands online.</p>
+                <ul>
+                    <li>Registration for online banking</li>
+                    <li>Last login record</li>
+                    <li>ATM and Cheque Book request</li>
+                    <li>Staff approval feature</li>
+                </ul>
+            </div>
+            <div class="personal">
+                <p id="heading">Personal Banking</p>
+                <ul>
+                    <li>Personal Banking application provides features to administer and manage non personal accounts online.</li>
+                    <li>Phishing is a fraudulent attempt, usually made through email, phone calls, SMS etc seeking your personal and confidential information.</li>
+                    <li>Any such e-mail/SMS or phone call is an attempt to fraudulently withdraw money from your account through Internet Banking. Never respond to such email/SMS or phone call. Please report immediately on reportif you receive any such email/SMS or Phone call. Please lock your user access immediately.</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

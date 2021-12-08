@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="css/admin.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="css/header.jpg" alt="Header img">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="server/logout.php">Logout</a></li>
+                <li><a href="" style="padding:10px 535px;"></a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <form method="POST" action="server/homereg.php">
+            <div class="reg">
+                <p id="heading">Registration</p>
+                <p>Enter name: </p>
+                <p><input type="text" name="name" placeholder="Enter name"></p>
+                <p>Enter pin: </p>
+                <p><input type="password" name="pin1" placeholder="Enter pin(5 digits)"></p>
+                <p>Confirm pin: </p>
+                <p><input type="password" name="pin2" placeholder="Confirm pin"></p>
+                <p>Age: </p>
+                <p><select name="age">
+                    <option value="" selected>---</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    <option value="32">32</option>
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                </select></p>
+                <p>Address: </p>
+                <p><input type="text" name="address" placeholder="Enter address"></p>
+                <p>Phone Number: </p>
+                <p><input type="text" name="phono" placeholder="Enter phone number"></p>
+                <p>Email Address: </p>
+                <p><input type="email" name="email" placeholder="Enter email address"></p>
+                <p><input type="submit" name="Sub" value="Register"></p>
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
